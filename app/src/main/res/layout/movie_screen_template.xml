@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/movie_screen_tmp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#264653"
+        android:gravity="center"
+        android:text="@string/ibuyticket_s"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@color/appBG">
+
+            <TextView
+                android:id="@+id/tmp_movieTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="left"
+                android:text="@string/black_panther_wakanda_forever"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tmp_screenTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/screen_time_191_minutes"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tmp_releseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/relese_date_10_november_2022"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/tmp_posterImage"
+                android:layout_width="150dp"
+                android:layout_height="225dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:src="@drawable/black_panther_wakanda_forever_poster" />
+
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="80dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tmp_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/the_nation_of_wakanda_is_pitted_against_intervening_world_powers_as_they_mourn_the_loss_of_their_king_t_challa"
+                    android:textColor="#BFFFFFFF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tmp_filmGenre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/film_gener"
+                    android:textColor="#BFFFFFFF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tmp_cast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cast"
+                    android:textColor="#BFFFFFFF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tmp_director"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/director"
+                    android:textColor="#BFFFFFFF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tmp_production"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/production"
+                    android:textColor="#BFFFFFFF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tmp_originalLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/original_language"
+                    android:textColor="#BFFFFFFF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tmp_ageRestrictions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/age_restrictions"
+                    android:textColor="#BFFFFFFF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tmp_showingIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/showin_in"
+                    android:textColor="#BFFFFFFF"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

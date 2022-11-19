@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/unaviableSit"
+        android:state_activated="false"/>
+    <item android:drawable="@drawable/sit_taken"
+        android:state_enabled="false"/>
+    <item android:drawable="@drawable/selected_sit"
+        android:state_checked="true"/>
+    <item android:drawable="@drawable/sit_color"
+        android:state_checked="false"/>
+
+</selector>

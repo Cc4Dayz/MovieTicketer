@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MovieActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#264653"
+            android:gravity="center"
+            android:text="@string/ibuyticket_s"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleText"
+            android:layout_margin="10dp">
+
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/movieTempLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/appBG">
+
+                    <TextView
+                        android:id="@+id/tmp_movieTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="left"
+                        android:text="@string/black_panther_wakanda_forever"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tmp_screenTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/screen_time_191_minutes"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tmp_releseDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="50dp"
+                        android:text="@string/relese_date_10_november_2022"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/tmp_posterImage"
+                        android:layout_width="150dp"
+                        android:layout_height="225dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/black_panther_wakanda_forever_poster" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tmp_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/the_nation_of_wakanda_is_pitted_against_intervening_world_powers_as_they_mourn_the_loss_of_their_king_t_challa"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tmp_filmGenre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/film_gener"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tmp_cast"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/cast"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tmp_director"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/director"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tmp_production"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/production"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tmp_originalLanguage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/original_language"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tmp_ageRestrictions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/age_restrictions"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tmp_showingIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/showin_in"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="10sp" />
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linearLayout2"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/tmp_btnTrailer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/movieTempLayout"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/trailer"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:ignore="NotSibling" />
+
+                    <Spinner
+                        android:id="@+id/theaterSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tmp_btnTrailer"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:entries="@array/theater"
+                        android:minHeight="48dp" />
+
+                    <Button
+                        android:id="@+id/btnDatePicker"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/theaterSpinner"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/select_date"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvSelectedDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/btnDatePicker"
+                        android:layout_alignBottom="@id/btnDatePicker"
+                        android:layout_toEndOf="@id/btnDatePicker"
+                        android:gravity="center"
+                        android:text="@string/select_a_date"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/movieTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/btnDatePicker"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/select_the_movie_hour"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/hourSpinner"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/btnDatePicker"
+                        android:layout_alignBottom="@id/movieTime"
+                        android:layout_marginStart="220dp"
+                        android:layout_marginTop="3dp"
+                        android:entries="@array/hours"
+                        android:minHeight="48dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/hourSpinner"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/ticketsAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:text="@string/tickets_amount"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/ticketsContainer"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:textSize="20sp">
+
+                            <EditText
+                                android:id="@+id/ticketsText"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:hint="@string/_0"
+                                android:inputType="number"
+                                android:lines="1"
+                                android:text="" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <Button
+                            android:id="@+id/plusBtn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+
+                            android:text="@string/plus" />
+
+                        <Button
+                            android:id="@+id/minusBtn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/minus" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout3"
+                    android:layout_marginBottom="10dp">
+
+                    <include
+                        android:id="@+id/sitsTmp"
+                        layout="@layout/theater_sits_template" />
+
+                    <Button
+                        android:id="@+id/btn_buy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sitsTmp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/sit_button"
+                        android:gravity="center"
+                        android:keepScreenOn="true"
+                        android:outlineProvider="bounds"
+                        android:text="@string/buy"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appBG"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/orderSumSpace"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/sumPurchase_bd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purchase Summarize :"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/movieTheater_bd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sumPurchase_bd"
+                android:text="@string/theater_city_rishon_lezion" />
+
+            <TextView
+                android:id="@+id/movieName_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movieTheater_bd"
+                android:text="@string/movie_name_minions" />
+
+            <TextView
+                android:id="@+id/movieDate_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movieName_bd"
+                android:text="@string/movie_date_10_2_2022" />
+
+            <TextView
+                android:id="@+id/movieHour_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieDate_bd"
+                android:text="@string/movie_hour_12_30" />
+
+            <TextView
+                android:id="@+id/ticketsSeats_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieHour_bd"
+                android:text="@string/selected_seats_row_1_seat_4_row_3_seat_11" />
+
+            <TextView
+                android:id="@+id/ticketsPrice_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ticketsSeats_bd"
+                android:text="@string/tickets_price_10" />
+
+            <TextView
+                android:id="@+id/firstName_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ticketsPrice_bd"
+                android:text="@string/first_name" />
+
+            <TextView
+                android:id="@+id/lastName_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/firstName_bd"
+                android:text="@string/last_name_levine" />
+
+            <TextView
+                android:id="@+id/email_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lastName_bd"
+                android:text="@string/email_address" />
+
+            <TextView
+                android:id="@+id/phone_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_bd"
+                android:text="@string/phone_number"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:id="@+id/thankYou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_bd"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="@string/thankYou"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

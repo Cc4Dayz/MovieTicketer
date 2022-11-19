@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">MovieTicketer</string>
+    <string name="ibuyticket_s">iBuyTicket\'s</string>
+    <string name="about">About</string>
+    <string name="theater_location">Rishon Lezion Theater</string>
+    <string name="date">Today Date</string>
+   <string name="required">Required</string>
+    <string name="select_a_date">Select a date</string>
+    <string name="select_the_movie_hour">Select the movie hour :</string>
+    <string name="tickets_amount">Tickets Amount :</string>
+    <string name="_0">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="select_date">Select Date</string>
+    <string name="trailer">Trailer</string>
+    <string name="showin_in">showin in</string>
+    <string name="age_restrictions">age restrictions</string>
+    <string name="original_language">original language</string>
+    <string name="production">production</string>
+    <string name="director">director</string>
+    <string name="cast">cast</string>
+    <string name="film_gener">Film gener</string>
+    <string name="the_nation_of_wakanda_is_pitted_against_intervening_world_powers_as_they_mourn_the_loss_of_their_king_t_challa">The nation of Wakanda is pitted against intervening world powers as they mourn the loss of their king T\'Challa.</string>
+    <string name="relese_date_10_november_2022">Relese Date : 10 November 2022</string>
+    <string name="screen_time_191_minutes">Screen Time: 191 minutes</string>
+    <string name="black_panther_wakanda_forever">Black Panther: Wakanda Forever</string>
+    <string name="number">Number</string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="first_name_purchase">First Name</string>
+    <string name="tickets_price_10">Tickets Price : 10$</string>
+    <string name="selected_seats_row_1_seat_4_row_3_seat_11">Selected Seats : Row 1 seat 4, Row 3 Seat 11</string>
+    <string name="movie_hour_12_30">Movie Hour : 12:30</string>
+    <string name="movie_date_10_2_2022">Movie Date : 10.2.2022</string>
+    <string name="movie_name_minions">Movie name : minions</string>
+    <string name="theater_city_rishon_lezion">Theater City : Rishon Lezion</string>
+    <string name="category_screen_time_in_min">Category | Screen Time in min</string>
+    <string name="discription">Discription</string>
+    <string name="ok">OK</string>
+    <string name="select_your_seat_s">Select your seat`s</string>
+    <string name="total_price">Total Price</string>
+    <string name="ticket_price">Ticket Price</string>
+    <string name="selected_seats">Selected seats</string>
+    <string name="total_tickets">Total Tickets</string>
+    <string name="_0dollar">0$</string>
+    <string name="_5dollar">5$</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_10">10</string>
+    <string name="_11">11</string>
+    <string name="_12">12</string>
+    <string name="_13">13</string>
+    <string name="_14">14</string>
+    <string name="_15">15</string>
+    <string name="_16">16</string>
+    <string name="_17">17</string>
+    <string name="_18">18</string>
+    <string name="passage">--Passage--</string>
+    <string name="entrance">Entrance</string>
+    <string name="taken">Taken</string>
+    <string name="aviable">Aviable</string>
+    <string name="language">Language</string>
+    <string name="first_name_jon">First Name : Jon</string>
+    <string name="last_name_levine">Last Name : Levine</string>
+    <string name="email_address">Email address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="thankYou">Thank you purchasing in our friendly neighborhood movie theater. \n\nAnd don`t for get to get our special popcorn supreme deal. Aviable until 21.November.2022!</string>
+    <string name="buy">BUY</string>
+    <string-array name="theater">
+        <item>Rishon Lezion</item>
+        <item>Tel Aviv</item>
+        <item>Haifa</item>
+        <item>Jerusalem</item>
+        <item>Ness Ziona</item>
+    </string-array>
+
+    <string-array name="hours">
+        <item> </item>
+        <item>08:30</item>
+        <item>10:10</item>
+        <item>14:20</item>
+        <item>20:00</item>
+        <item>22:40</item>
+        <item>00:00</item>
+    </string-array>
+
+    <string-array name="citizenship">
+        <item>Adult</item>
+        <item>Child</item>
+        <item>Student</item>
+        <item>Senior </item>
+    </string-array>
+</resources>

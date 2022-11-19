@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theater_location">בית קולנוע ראשון לציון</string>
+    <string name="date">תאריך של היום</string>
+    <string name="required">נחוץ</string>
+    <string name="select_a_date">בחר תאריך</string>
+    <string name="select_the_movie_hour">בחר את שעת הסרט</string>
+    <string name="tickets_amount">כמות כרטיסים</string>
+    <string name="select_date">בחר תאריך</string>
+    <string name="showin_in">מופיע ב</string>
+    <string name="age_restrictions">מגבלת גיל</string>
+    <string name="original_language">שפה מקורית</string>
+    <string name="director">במאי</string>
+    <string name="film_gener">סוג סרט</string>
+    <string name="number">מספר טלפון</string>
+    <string name="confirm_purchase">השלם קנייה</string>
+    <string name="email">מייל</string>
+    <string name="first_name">שם</string>
+    <string name="first_name_purchase">שם משפחה</string>
+    <string name="cast">שחקנים</string>
+    <string name="production">הפקה</string>
+    <string name="discription">תיאור</string>
+    <string name="ok">אישור</string>
+    <string name="select_your_seat_s">בחר את המושבים</string>
+    <string name="total_price">סה\"כ</string>
+    <string name="ticket_price">מחיר כרטיס</string>
+    <string name="selected_seats">מושבים שנבחרו</string>
+    <string name="total_tickets">כמות כרטיסים שנבחרו</string>
+    <string name="passage">--מעבר--</string>
+    <string name="entrance">כניסה</string>
+    <string name="taken">תפוס</string>
+    <string name="aviable">פנוי</string>
+    <string name="language">שפה</string>
+    <string name="first_name_jon">שם</string>
+    <string name="last_name_levine">שם משפחה</string>
+    <string name="email_address">כתובת</string>
+    <string name="phone_number">מספר טלפון</string>
+    <string name="thankYou">תודה שקניתם בבית הקולנוע השכונתי.\n\nאל תשכחו על המבצע של הפופרוקן סופרים שיש לנו. עד לתאריך 21 לנובמבר 2022</string>
+    <string name="buy">רכישה</string>
+</resources>
